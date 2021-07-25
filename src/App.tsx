@@ -46,13 +46,13 @@ function App() {
     teams: [
       {
         name: "Dậu Vương",
-        win: 3,
+        win: 4,
         lose: 0,
       },
       {
         name: "Gao Ranger",
         win: 1,
-        lose: 2,
+        lose: 3,
       },
       {
         name: "Liều ăn nhiều",
