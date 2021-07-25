@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.bold {
+  font-weight: 500;
+}
+
 body {
   margin: 0;
   font-size: 0.875rem;

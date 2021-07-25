@@ -28,13 +28,13 @@ const Divider = styled.div`
   height: 1px;
   width: 100%;
   background: #fff;
-  margin: 8px 0;
+  margin: 10px 0;
 `;
 
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 1fr 8fr 3fr 3fr 3fr;
-  row-gap: 8px;
+  row-gap: 10px;
   div {
     text-overflow: ellipsis;
     display: -webkit-box;
@@ -70,7 +70,7 @@ export const Table = ({ group }: { group: Group }) => {
     <>
       <GroupName>{group.name}</GroupName>
       <TableWrapper>
-        <Grid>
+        <Grid className="bold">
           <div>STT</div>
           <div>Tên đội</div>
           <div>Số trận</div>
